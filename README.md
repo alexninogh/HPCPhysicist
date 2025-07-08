@@ -1,10 +1,12 @@
-# HPC for Physicists from a Physicist :D
+# HPC for Physicists from a Physicist
 
-My name is [Alessandro Renzi](https://github.com/alexninogh/alessandro.renzi), I am a physicist working on cosmology and data analysis. This repository wants to be a collection of notes about HPC and numerical computing, with the hope of being useful for others using HPC for physics.
+My name is [Alessandro Renzi](https://github.com/alexninogh/alessandro.renzi), and I am a physicist working on cosmology and data analysis. This repository aims to be a collection of notes on HPC and numerical computing, with the hope that it will be useful for others using HPC in physics.
 
 ## Learning by Teaching
 
-Best way to learn is by teaching [Feynman technique](https://en.wikipedia.org/wiki/Learning_by_teaching). 
+Best way to learn is by teaching! -> Read about [Feynman technique](https://en.wikipedia.org/wiki/Learning_by_teaching).
+
+Here you can find my collection of notes:
 
 - [Utilities](./utils/utils-index.md): Random notes about programming
 - [Programming with Julia](./julia/julia-index.md): How to start developing with the Julia programming language.
