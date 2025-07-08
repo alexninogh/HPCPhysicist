@@ -6,8 +6,9 @@ My name is [Alessandro Renzi](https://github.com/alexninogh/alessandro.renzi), I
 
 Best way to learn is by teaching [Feynman technique](https://en.wikipedia.org/wiki/Learning_by_teaching). 
 
-- [Programming with Julia](./Julia/julia-index.md) - How to start developing with the Julia programming language.
-- [Parallel Programming](./parallel_programming/pp-index.md) - Learn to do parallel programming
+- [Utilities](./utils/utils-index.md): Random notes about programming
+- [Programming with Julia](./julia/julia-index.md): How to start developing with the Julia programming language.
+- [Parallel Programming](./parallel_prog/pp-index.md): Learn to do parallel programming
 
 ---
 
