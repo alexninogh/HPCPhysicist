@@ -21,7 +21,7 @@ example after the main.
 */
 
 void daxpy(size_t N, double a, double *X, double *Y, double *D); //out-of-place daxpy
-void daxpy(size_t N, double a, double *X, double *Y); //in-place daxpy
+void daxpy_inplace(size_t N, double a, double *X, double *Y); //in-place daxpy
 void print_vector(const char *name, size_t N, double *v);
 
 // --- Main ---
@@ -139,7 +139,7 @@ The daxpy function takes the number of elements 'N', the scalar 'a',
 and pointers to the vectors 'X' and 'Y' as input. It then
 performs the 'd = a*x + y' operation and stores the result into 'd'.
 */
-void daxpy(size_t n, double a, double *x, double *y) {
+void daxpy_inplace(size_t n, double a, double *x, double *y) {
     for (size_t i = 0; i < n; i++) {
         y[i] = a * x[i] + y[i];
     }
