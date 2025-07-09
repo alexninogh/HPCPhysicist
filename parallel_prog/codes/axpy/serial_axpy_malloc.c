@@ -21,7 +21,7 @@ example after the main.
 */
 
 void daxpy(size_t N, double a, double *X, double *Y, double *D); //out-of-place daxpy
-void daxpy_inplace(size_t N, double a, double *X, double *Y); //in-place daxpy
+void daxpy_inplace(size_t N, double a, double *X, double *Y); //in-place daxpy ---> NO FUNCTION OVERLOADING IN C!!!!!
 void print_vector(const char *name, size_t N, double *v);
 
 // --- Main ---
