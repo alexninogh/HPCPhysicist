@@ -127,6 +127,17 @@ The daxpy function takes the number of elements 'N', the scalar 'a',
 and pointers to the vectors 'X' and 'Y' as input. It then
 performs the 'd = a*x + y' operation and stores the result into 'd'.
 */
+void daxpy(size_t n, double a, double *x, double *y, double *d) {
+    for (int i = 0; i < n; i++) {
+        d[i] = a * x[i] + y[i];
+    }
+}
+
+/*
+The daxpy function takes the number of elements 'N', the scalar 'a',
+and pointers to the vectors 'X' and 'Y' as input. It then
+performs the 'd = a*x + y' operation and stores the result into 'd'.
+*/
 void daxpy(size_t n, double a, double *x, double *y) {
     for (int i = 0; i < n; i++) {
         y[i] = a * x[i] + y[i];
