@@ -118,6 +118,7 @@ malloc.
     // Free the memory we allocated to prevent memory leaks.
     free(X);
     free(Y);
+    free(D);
 
     return 0;
 }
@@ -128,7 +129,7 @@ and pointers to the vectors 'X' and 'Y' as input. It then
 performs the 'd = a*x + y' operation and stores the result into 'd'.
 */
 void daxpy(size_t n, double a, double *x, double *y, double *d) {
-    for (int i = 0; i < n; i++) {
+    for (size_t i = 0; i < n; i++) {
         d[i] = a * x[i] + y[i];
     }
 }
@@ -139,7 +140,7 @@ and pointers to the vectors 'X' and 'Y' as input. It then
 performs the 'd = a*x + y' operation and stores the result into 'd'.
 */
 void daxpy(size_t n, double a, double *x, double *y) {
-    for (int i = 0; i < n; i++) {
+    for (size_t i = 0; i < n; i++) {
         y[i] = a * x[i] + y[i];
     }
 }
@@ -152,7 +153,7 @@ void daxpy(size_t n, double a, double *x, double *y) {
 */
  void print_vector(const char *name, size_t n, double *v) {
     printf("%s = [", name);
-    for (int i = 0; i < n; i++) {
+    for (size_t i = 0; i < n; i++) {
         printf(" %f", v[i]);
         if (i < n - 1) {
             printf(",");
